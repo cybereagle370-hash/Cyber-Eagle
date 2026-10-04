@@ -482,3 +482,22 @@ footer {
     z-index: 9999;
   }
 }
+@media (max-width: 700px) {
+  .navbar {
+    padding: 10px 15px;
+  }
+
+  .logo img {
+    width: 110px;
+    height: auto;
+  }
+
+  .menu-button {
+    padding: 6px 10px;
+    font-size: 20px;
+  }
+
+  .nav-links.active {
+    top: 60px;
+  }
+}
