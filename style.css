@@ -469,4 +469,16 @@ footer {
     width: 100%;
     text-align: center;
   }
+}@media (max-width: 700px) {
+  .nav-links.active {
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #050816;
+    padding: 20px;
+    z-index: 9999;
+  }
 }
