@@ -500,4 +500,19 @@ footer {
   .nav-links.active {
     top: 60px;
   }
+}@media (max-width: 700px) {
+  .menu-button {
+    display: block !important;
+    position: relative;
+    z-index: 10001;
+  }
+
+  .nav-links {
+    display: none !important;
+  }
+
+  .nav-links.active {
+    display: flex !important;
+    z-index: 10000;
+  }
 }
